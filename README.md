@@ -2,7 +2,8 @@ Insect classification model made using tensorflow-keras
 
 # INTRO
 
-This is my second project in machine learning, in which I tried to repeat the same project, Insect classification model pytorch, but this time using another popular deep learning framework -Tensorflow/Keras. I will list a few differences that I noticed, creating the model itself was easier since there are a lot of examples and explanations online and it's also less verbose than Pytorch but once you make a mistake it is harder to debug. And another big difference to me, as a beginner in machine learning, is that Tensorflow seems like a completely new language.
+This is my second project in machine learning, in which I tried to repeat the same project, Insect classification model pytorch, but this time using another popular deep learning framework -Tensorflow/Keras. 
+I will list a few differences that I noticed, creating the model itself was easier since there are a lot of examples and explanations online and it's also less verbose than Pytorch but once you make a mistake it is harder to debug. And another big difference to me, as a beginner in machine learning, is that Tensorflow seems like a completely new language.
 
 ## Project Description:
 - this is a small and demonstrative project that classifies 12 different insects and returns their latin names
