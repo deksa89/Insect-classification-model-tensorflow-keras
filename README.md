@@ -16,8 +16,25 @@ to run the model:
 - clone the repository
 - install requirements.txt
 - run pytorch_insect_classification_model.ipynb
+- 
 
+### Ploted results and confusion matrix:
+![bugs](https://user-images.githubusercontent.com/89583742/162262535-3fc48dac-bbd3-4dc6-939b-8507e697619a.png)
 
+![confusion](https://user-images.githubusercontent.com/89583742/162262572-46973925-9f2f-452a-b40c-18896a652f1a.png)
+
+## FRONTEND part of the project
+
+to install frontend:
+ - install NodeJS and NPM
+ - install dependencies in frontend folder cd Desktop/Insects/frontend by typing npm install --from-lock-json and then npm audit fix
+ - copy and rename .env.example to .env and change REACT_APP_API_URL to API URL if needed
+
+to run frontend:
+ - go to frontend folder
+ - run the frontend by typing npm run start in cmd
+ 
+![Screenshot](https://user-images.githubusercontent.com/89583742/161758722-7c66f494-c27d-4f99-a1bd-1d9c8e5eef51.jpg)
 
 
 
