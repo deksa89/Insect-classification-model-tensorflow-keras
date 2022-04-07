@@ -12,11 +12,9 @@ This is my second project in machine learning, in which I tried to repeat the sa
 - final model was trained using resnet18 which showed high accuracy on test images >94%
 
 to run the model:
-
 - clone the repository
 - install requirements.txt
 - run pytorch_insect_classification_model.ipynb
-- 
 
 ### Ploted results and confusion matrix:
 ![bugs](https://user-images.githubusercontent.com/89583742/162262535-3fc48dac-bbd3-4dc6-939b-8507e697619a.png)
