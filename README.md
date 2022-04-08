@@ -31,7 +31,7 @@ to run the model:
 
 to install frontend:
  - install NodeJS and NPM
- - install dependencies in frontend folder cd Desktop/Insects/frontend by typing npm install --from-lock-json and then npm audit fix
+ - install dependencies in frontend folder cd Desktop/Insects/frontend by typing `npm install --from-lock-json` and then `npm audit fix`
  - copy and rename `.env.example` to `.env` and change REACT_APP_API_URL to API URL if needed
 
 to run frontend:
