@@ -11,7 +11,7 @@ I noticed that creating the model itself was easier since there are a lot of exa
 - those insects are: Adalia bipunctata', Calliteara pudibunda, Cerambyx cerdo, Gryllotalpa gryllotalpa, Lucanus cervus, Mantis religiosa, Melolontha melolontha, Phyrrochorus apterus, Rhaphigaster nebulosa, Sesia apiformis, Tettigonia viridissima, Xylocopa violacea.
 - image classification is done by using `tensorflow 2.8.0`, `matplotlib 3.5.0` for visualization and `scikit-learn 1.0.2` for making a confusion matrix
 - model was fed with 5200 images of 12 different insects splited in 3 folders: training, validation and test
-- final model was trained using resnet18 which showed high accuracy on validation images of ~99% after 12 epochs
+- final model was trained using resnet18 which showed high accuracy on validation images of ~99% after 65 epochs and was stopped by EarlyStopping
 - since keras doesn't have built-in resnet18 model, I have installed classification models from https://github.com/qubvel/classification_models
 - I was trying to freeze the layers but the model performed worse than when all weights were unfrozen and adjusted during training
 - frontend was cloned from https://github.com/codebasics/potato-disease-classification/tree/main/frontend and the background image was replaced as well as the title
