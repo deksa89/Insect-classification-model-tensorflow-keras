@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 
-MODEL = tf.keras.models.load_model("saved_models/best_model.pb")
+MODEL = tf.keras.models.load_model("saved_models/best_model.pb") #path to our trained model
 
 CLASS_NAMES = ['adalia bipunctata', 'calliteara pudibunda', 'cerambyx cerdo', 'gryllotalpa gryllotalpa', 'lucanus cervus', 'mantis religiosa', 'melolontha melolontha', 'phyrrochorus apterus', 'rhaphigaster nebulosa', 'sesia apiformis', 'tettigonia viridissima', 'xylocopa violacea']
 
