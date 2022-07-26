@@ -21,7 +21,6 @@ to run the model:
 - clone the repository
 - install `requirements.txt`
 - run `keras_insect_classification_model.ipynb`
-- trained model was removed from the repository because it didn't work after compression so you would have to train it yourself
 
 ### Ploted results and confusion matrix:
 ![bugs](https://user-images.githubusercontent.com/89583742/162262535-3fc48dac-bbd3-4dc6-939b-8507e697619a.png)
