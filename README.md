@@ -14,15 +14,14 @@ I noticed that creating the model itself was easier since there are a lot of exa
 - final model was trained using resnet18 which showed high accuracy on validation images of ~99% after 65 epochs and was stopped by EarlyStopping
 - since keras doesn't have built-in resnet18 model, I have installed classification models from https://github.com/qubvel/classification_models
 - I was trying to freeze the layers but the model performed worse than when all weights were unfrozen and adjusted during training
-- frontend was cloned from https://github.com/codebasics/potato-disease-classification/tree/main/frontend and the background image was replaced as well as the title
-
-- trained model was removed from the repository because it wouldn't work after conversion 
+- frontend was cloned from https://github.com/codebasics/potato-disease-classification/tree/main/frontend and the background image was replaced as well as the title 
 
 
 to run the model:
 - clone the repository
 - install `requirements.txt`
 - run `keras_insect_classification_model.ipynb`
+- trained model was removed from the repository because it wouldn't work after compression so you would have to train it yourself
 
 ### Ploted results and confusion matrix:
 ![bugs](https://user-images.githubusercontent.com/89583742/162262535-3fc48dac-bbd3-4dc6-939b-8507e697619a.png)
