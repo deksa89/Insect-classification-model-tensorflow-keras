@@ -32,8 +32,8 @@ to run the model:
 
 to install frontend:
  - install NodeJS and NPM
- - install dependencies in frontend folder cd Desktop/Insects/frontend by typing `npm install --from-lock-json` and then `npm audit fix`
- - copy and rename `.env.example` to `.env` and change REACT_APP_API_URL to API URL if needed
+ - enter in `frontend` folder and install dependencies by typing `npm install`
+ - rename `.env.example` to `.env` and localport will be set on 8001, same as in fast.py
 
 to run frontend:
  - start `fast.py` from fast folder and run it
