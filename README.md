@@ -16,6 +16,9 @@ I noticed that creating the model itself was easier since there are a lot of exa
 - I was trying to freeze the layers but the model performed worse than when all weights were unfrozen and adjusted during training
 - frontend was cloned from https://github.com/codebasics/potato-disease-classification/tree/main/frontend and the background image was replaced as well as the title
 
+- trained model was removed from the repository because it wouldn't work after conversion 
+
+
 to run the model:
 - clone the repository
 - install `requirements.txt`
